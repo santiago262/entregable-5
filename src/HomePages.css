@@ -1,0 +1,57 @@
+.home-pages-container {
+   
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+    
+  }
+  
+  .home-pages-title {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .home-pages-subtitle {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .home-pages-text {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #444;
+    margin-top: 20px;
+  }
+  
+  .from-trainer-container {
+    margin-top: 30px;
+  }
+  .from-trainer-form {
+    margin-top: 20px;
+  }
+  
+  .from-trainer-input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .from-trainer-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .from-trainer-button:hover {
+    background-color: #0056b3;
+  }
+  

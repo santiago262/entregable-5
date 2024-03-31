@@ -1,0 +1,111 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    bottom: 20px; 
+    width: 100%;
+}
+
+.pagination-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.pagination-button:hover {
+    background-color: #0056b3;
+}
+
+
+.logo-container {
+  text-align: center;
+}
+
+.logo-img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.trainer-text {
+  font-family: Arial, sans-serif;
+  font-size: 1.2em; 
+  color: #333;
+  margin-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .logo-img {
+    max-width: 80%; 
+  }
+
+  .trainer-text {
+    font-size: 1em; 
+  }
+}
+
+
+
+
+.pagination-page {
+    margin: 0 10px;
+    font-size: 16px;
+    color: #333; 
+}
+
+.container-search{
+  display: flex;
+  justify-content: center;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  min-height: 30px;
+  width: 100%;
+  padding: 0 1rem;
+  color: black;
+  font-size: 15px;
+  border: 1px solid #5e4dcd;
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+.button--submit {
+  min-height: 30px; 
+  padding: .5em 1em;
+  border: none;
+  border-radius: 6px;
+  background-color: #5e4dcd;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+.button--submit:hover {
+  background-color: #5e5dcd;
+}
+
+.input:focus, .input:focus-visible {
+  border-color: #3898EC;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .input {
+    font-size: 14px;
+  }
+
+  .button--submit {
+    font-size: 14px; 
+  }
+}

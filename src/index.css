@@ -1,0 +1,17 @@
+body{background-color:white;
+
+  
+}
+
+.svg-icon {
+    width: 24px;
+    height: 24px;
+    
+  };
+  .svg-icon-xd {
+    width: 24px;
+    height: 24px;
+    transform: scaleX(-1);
+    
+  };
+
