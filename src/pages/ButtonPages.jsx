@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "../paginated.css"
 
 export default function ButtonPages({ start, end, setNumber }) {
     const handleAdd = () => {

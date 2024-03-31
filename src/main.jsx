@@ -5,7 +5,7 @@ import './index.css'
 import { Provider } from 'react-redux'
 import store from './store/index.js'
 import {HashRouter} from "react-router-dom"
-import "./paginated.css"
+
 import "./select.css"
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
