@@ -16,23 +16,22 @@
     font-family: Arial, sans-serif;
   }
   
-  /* Estilo cuando el select está enfocado */
+  
   .select-type:focus {
     border-color: #007bff;
   }
   
-  /* Estilo para los bordes cuando se pasa el mouse sobre las opciones */
+  
   .select-type:hover {
     border-color: #007bff;
   }
   
-  /* Estilo para las opciones */
   .select-type option:hover {
     background-color: #007bff;
     color: #fff;
   }
   
-  /* Estilo para la opción seleccionada */
+
   .select-type option:checked {
     background-color: #007bff;
     color: #fff;
